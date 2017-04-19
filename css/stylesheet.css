@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+
+/*          header       */
+.header {
+  height:90px;
+  width:100%;
+  background-color:rgba(255,255,255,0.8);
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:10;
+}
+.header-logo {
+  margin-top:5px;
+  float:left;
+}
+
+.header-logo img{
+  width:90px;
+}
+
+.global-nav {
+  float:right;
+  margin-top: 10px;
+}
+
+.global-nav li {
+  float:left;
+}
+
+.global-nav a {
+  font-size: 30px;
+  font-family: 'IMPACT', sans-serif;
+  margin:0 15px;
+  color:#4682b4;
+  transition: 0.3s;
+}
+
+.global-nav a:hover {
+  opacity: 0.8;
+}
+/*          ここまでheader       */
+
+
+
+/*          home       */
+.home-wrapper {
+  padding: 10px 0 10px 0;
+  height:600px;
+  background-image: url("../images/c-samuels-fuji-prep-a-20140719 (1).jpg");
+  background-size: cover;
+  color: white;
+}
+/*          ここまでhome       */
+
+
+
+/*          news       */
+.news-wrapper h2 {
+  text-align:center;
+  font-family: 'IMPACT', sans-serif;
+  color:#4682b4;
+}
+
+.scroll-list {
+  max-height: 100px;
+  overflow-y: auto;
+  margin-bottom:30px;
+}
+
+.scroll-list .scroll-item a {
+  display: block;
+  padding:10px 15px;
+  color:#4682b4;
+  transition:background-color 0.1s;
+}
+
+.scroll-list .scroll-item:nth-of-type(even) a {
+  background: url("../images/bg-slash.gif");
+}
+
+.scroll-list .scroll-item a:hover {
+  background-color: #fafaf8;
+}
+
+.scroll-list .date {
+  display: inline-block;
+}
+
+.scroll-list .title {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+/*          ここまでnews       */
+
+
+
+
+/*          main       */
+.main-wrapper {
+  height:800px;
+  width:100%;
+  background-color:#f5f5f5;
+}
+/*          ここまでmain       */
