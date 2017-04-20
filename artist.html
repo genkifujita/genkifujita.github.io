@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/artist.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="images/logo.png" sizes="96x96">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 
@@ -43,25 +44,38 @@
       <h1>第１弾アーティスト発表!!</h1>
       <div class="artist-block">
         <div class="artists">
-          <div class="genki-fujita 1">
+          <div class="genki-fujita-1" id="login-show">
             <a href="#"><img src="" alt=""></a>
             <p>GENKI  FUJITA</p>
           </div>
         </div>
         <div class="artists">
-          <div class="genki-fujita 1">
+          <div class="genki-fujita-2">
             <a href="#"><img src="" alt=""></a>
             <p>GENKI  FUJITA</p>
           </div>
         </div>
         <div class="artists">
-          <div class="genki-fujita 1">
+          <div class="genki-fujita-3">
             <a href="#"><img src="" alt=""></a>
             <p>GENKI  FUJITA</p>
           </div>
         </div>
       </div>
       <p class="and-more">...and more!!</p>
+    </div>
+  </div>
+
+  <div class="login-modal-wrapper" id="login-modal">
+    <div class="modal">
+      <div id="login-form">
+        <h2>Emailログイン</h2>
+        <form action="#">
+          <input class="form-control" type="text" placeholder="メールアドレス">
+          <input class="form-control" type="password" placeholder="パスワード">
+          <div id="submit-btn">ログイン</div>
+        </form>
+      </div>
     </div>
   </div>
 
