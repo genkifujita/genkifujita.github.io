@@ -29,7 +29,6 @@ li {
   left:0;
   z-index:10;
 }
-
 .header-logo {
   margin-top:5px;
   float:left;
@@ -67,7 +66,7 @@ li {
 .home-wrapper {
   padding:300px 0 300px 0;
   background-position: center center;
-  background-image: url("../images/home画像.jpg");
+  background-image: url("../images/access-home画像.jpg");
   background-size: cover;
 }
 /*          ここまでhome       */
@@ -110,90 +109,16 @@ li {
   display: inline-block;
   padding-left: 15px;
 }
+
 /*          ここまでnews       */
 
 
 
 
 /*          main       */
-.main-wrapper{
+.main-wrapper {
+  height:800px;
+  width:100%;
   background-color:#f5f5f5;
-  height:930px;
-}
-
-.main-left {
-    float:left;
-    width:50%;
-}
-
-.map {
-  margin-top:40px;
-  border-radius:10px;
-}
-
-iframe {
-  border-radius:10px;
-}
-
-.history a {
-  float:left;
-  width:95%;
-  height:300px;
-  margin:40px 0;
-  border-radius:10px;
-  background-image: url("../images/history画像.png");
-  background-size: cover;
-}
-
-
-
-
-.main-right {
-  float:right;
-  width:50%;
-}
-
-.topics {
-  width:95%;
-  float:right;
-}
-
-.rules {
-  width:46%;
-  height:230px;
-  background-color:#c0c0c0;
-  margin-top:40px;
-  border-radius:10px;
-  display: inline-block;
-  margin-right:30px;
-}
-
-.faq {
-  width:46%;
-  height:230px;
-  background-color:#c0c0c0;
-  margin-top:40px;
-  border-radius:10px;
-  display: inline-block;
-  float:right;
-}
-
-.artist-news {
-  float:right;
-  width:95%;
-  height:230px;
-  background-color:#c0c0c0;
-  margin-top:40px;
-  border-radius:10px;
-}
-
-.livereport a {
-  float:right;
-  width:95%;
-  height:300px;
-  margin:40px 0;
-  border-radius:10px;
-  background-image: url("../images/livereport画像.jpg");
-  background-size: cover;
 }
 /*          ここまでmain       */
