@@ -65,9 +65,9 @@ li {
 
 /*          home       */
 .home-wrapper {
-  padding:300px 0 300px 0;
+  padding:300px 0;
   background-position: center center;
-  background-image: url("../images/169.jpg");
+  background-image: url("../images/home画像.jpg");
   background-size: cover;
 }
 /*          ここまでhome       */
@@ -196,6 +196,11 @@ iframe {
 }
 /*          ここまでmain       */
 
+
+.footer {
+  text-align: center;
+  height:300px;
+}
 
 .footer-logo img{
   width:90px;

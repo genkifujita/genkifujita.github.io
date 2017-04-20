@@ -123,3 +123,12 @@ li {
 }
 
 /*          ここまでmain       */
+
+.footer {
+  text-align: center;
+  height:300px;
+}
+
+.footer-logo img{
+  width:90px;
+}
