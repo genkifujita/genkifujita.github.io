@@ -153,6 +153,10 @@ iframe {
   float:right;
 }
 
+.rules p {
+  color:#505050
+}
+
 .topics h2 {
   text-align:center;
   font-family: 'IMPACT', sans-serif;
