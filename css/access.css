@@ -29,6 +29,7 @@ li {
   left:0;
   z-index:10;
 }
+
 .header-logo {
   margin-top:5px;
   float:left;
@@ -57,6 +58,13 @@ li {
 
 .global-nav a:hover {
   opacity: 0.8;
+}
+
+.global-nav p {
+  font-size: 30px;
+  font-family: 'IMPACT', sans-serif;
+  margin:0 15px;
+  color:#c0c0c0;
 }
 /*          ここまでheader       */
 
