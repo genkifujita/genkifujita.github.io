@@ -162,7 +162,7 @@ iframe {
 .rules {
   width:46%;
   height:230px;
-  background-color:#dcdcdc;
+  background-color:white;
   margin-top:40px;
   border-radius:10px;
   display: inline-block;
@@ -172,7 +172,7 @@ iframe {
 .faq {
   width:46%;
   height:230px;
-  background-color:#dcdcdc;
+  background-color:white;
   margin-top:40px;
   border-radius:10px;
   display: inline-block;
