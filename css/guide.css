@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+h3 p{
+  font-family: arial, sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -23,7 +27,7 @@ li {
 .header {
   height:90px;
   width:100%;
-  background-color:rgba(255,215,0,0.3);
+  background-color:rgba(238,232,170,0.5);
   position:fixed;
   top:0;
   left:0;

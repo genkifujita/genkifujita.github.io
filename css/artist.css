@@ -23,7 +23,7 @@ li {
 .header {
   height:90px;
   width:100%;
-  background-color:rgba(70,130,180,0.3);
+  background-color:rgba(238,232,170,0.5);
   position:fixed;
   top:0;
   left:0;
@@ -95,6 +95,7 @@ li {
   font-size:50px;
   font-weight:600;
   color:#505050;
+  font-family: arial, sans-serif;
 }
 
 .artist-block {
@@ -160,7 +161,7 @@ li {
 
 /*          modal       */
 
-.login-modal-wrapper, .signup-modal-wrapper {
+.login-modal-wrapper {
   position: fixed;
   top: 0;
   right: 0;
@@ -183,6 +184,67 @@ li {
   text-align: center;
 }
 
+#login-form img{
+  width:200px;
+  height:200px;
+}
+
+.login-modal-wrapper-2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal-2 {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+#login-form-2 img{
+  width:200px;
+  height:200px;
+}
+
+.login-modal-wrapper-3 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal-3 {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+#login-form-3 img{
+  width:200px;
+  height:200px;
+}
+
 .fa-times {
   position: absolute;
   top: 12px;
@@ -191,35 +253,6 @@ li {
   cursor: pointer;
 }
 
-#signup-form, #login-form {
-  width: 100%;
-}
-
-#signup-form h2, #login-form h2 {
-  color: #5f5d60;
-  letter-spacing: 1px;
-  margin-bottom: 40px;
-}
-
-#signup-form input, #login-form input {
-  width: 320px;
-  margin-bottom: 20px;
-  font-size: 12px;
-  padding: 12px 12px;
-  border: 1px solid #d0d5d8;
-  border-radius: 5px;
-}
-
-#submit-btn {
-  display: inline-block;
-  padding: 14px 140px;
-  background-color: #5dca88;
-  border: none;
-  border-radius: 3px;
-  color: white;
-  margin: 10px auto;
-  cursor: pointer;
-}
 /*          ここまでmodal       */
 
 .sosyal {
