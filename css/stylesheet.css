@@ -23,7 +23,7 @@ li {
 .header {
   height:90px;
   width:100%;
-  background-color:rgba(238,232,170,0.5);
+  background-color:rgba(238,232,170,0.7);
   position:fixed;
   top:0;
   left:0;
@@ -174,13 +174,14 @@ iframe {
 .topics a {
   background-color:#eee8aa;
   color:white;
-  padding:10px 20px;
+  padding:15px 80px;
   text-align:center;
   float:right;
   border-radius:10px;
   position: absolute;
   top:170px;
-  left:85px;
+  left:23px;
+  font-family: arial, sans-serif;
 }
 
 .rules {
@@ -210,7 +211,7 @@ iframe {
     padding: 0.5em 1em;
     text-decoration: none;
     color: #FFF;
-    border-bottom: solid 2px #bdb76b;
+    border-bottom: solid 2px #d0ca8c;
     border-radius: 3px;
 }
 .square_btn:active {/*ボタンを押したとき*/
