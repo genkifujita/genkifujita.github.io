@@ -93,7 +93,14 @@ li {
 .main-wrapper h1 {
   text-align: center;
   font-size:50px;
-  color:#4682b4;
+  font-weight:600;
+  color:#505050;
+}
+
+.artist-block {
+  background-color: white;
+  overflow: hidden;
+  border-radius:50px;
 }
 
 .artists {
@@ -106,6 +113,11 @@ li {
   height:230px;
   margin-top:40px;
   display: inline-block;
+  transition: 0.3s;
+}
+
+.artists img:hover {
+  opacity:0.6;
 }
 
 .genki-fujita-1 img{
@@ -126,10 +138,11 @@ li {
   background-position: center center;
 }
 
-.artists p {
-  font-size:25px;
+.artists h3 {
+  margin-top:5px;
+  font-size:18px;
   font-weight: bold;
-  color:#2f4f4f;
+  color:#505050;
 }
 
 .and-more {
@@ -147,7 +160,7 @@ li {
 
 /*          modal       */
 
-.login-modal-wrapper {
+.login-modal-wrapper, .signup-modal-wrapper {
   position: fixed;
   top: 0;
   right: 0;
@@ -156,7 +169,6 @@ li {
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
   display: none;
-
 }
 
 .modal {
@@ -208,12 +220,83 @@ li {
   margin: 10px auto;
   cursor: pointer;
 }
-
 /*          ここまでmodal       */
+
+.sosyal {
+  margin: 50px auto;
+}
+.facebook {
+  background-color: #2e4a88;
+  box-shadow: 0 4px 0 #1B3D82;
+  text-shadow: 0 -1px -1px #1B3D82;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.facebook:hover {
+  background-color: #354F84;
+}
+.facebook:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #1B3D82;
+}
+.twitter {
+  background-color: #008DDE;
+  box-shadow: 0 4px 0 #0078BD;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.twitter:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+.twitter:hover {
+  background-color: #1397D8;
+}
+.google {
+  background-color: #CC3622;
+  box-shadow: 0 4px 0 #BA2714;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.google:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #BA2714;
+}
+.google:hover {
+  background-color: #D04829;
+}
+
 
 .footer {
   text-align: center;
-  height:300px;
+  height:180px;
 }
 
 .footer-logo img{

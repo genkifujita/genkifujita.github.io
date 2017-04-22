@@ -226,7 +226,7 @@ iframe {
   height:230px;
   margin-top:40px;
   border-radius:10px;
-  background-image:url("../images/artist-news.jpg");
+  background-image:url("../images/artist-home画像.jpg");
   background-size: cover;
   line-height:230px;
   transition: 0.2s;
@@ -253,10 +253,81 @@ iframe {
 
 /*          ここまでmain       */
 
+.sosyal {
+  margin: 50px auto;
+}
+.facebook {
+  background-color: #2e4a88;
+  box-shadow: 0 4px 0 #1B3D82;
+  text-shadow: 0 -1px -1px #1B3D82;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.facebook:hover {
+  background-color: #354F84;
+}
+.facebook:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #1B3D82;
+}
+.twitter {
+  background-color: #008DDE;
+  box-shadow: 0 4px 0 #0078BD;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.twitter:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #0078BD;
+}
+.twitter:hover {
+  background-color: #1397D8;
+}
+.google {
+  background-color: #CC3622;
+  box-shadow: 0 4px 0 #BA2714;
+
+  display: inline;
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 80px;
+}
+.google:active {
+  top: 2px;
+	box-shadow: 0 2px 0 #BA2714;
+}
+.google:hover {
+  background-color: #D04829;
+}
+
 
 .footer {
   text-align: center;
-  height:300px;
+  height:180px;
 }
 
 .footer-logo img{
