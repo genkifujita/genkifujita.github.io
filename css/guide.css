@@ -23,7 +23,7 @@ li {
 .header {
   height:90px;
   width:100%;
-  background-color:rgba(255,255,255,0.8);
+  background-color:rgba(255,215,0,0.3);
   position:fixed;
   top:0;
   left:0;
@@ -71,12 +71,7 @@ li {
 
 
 /*          home       */
-.home-wrapper {
-  padding:300px 0 300px 0;
-  background-position: center center;
-  background-image: url("../images/information-home画像.jpg");
-  background-size: cover;
-}
+
 /*          ここまでhome       */
 
 
