@@ -77,17 +77,18 @@ li {
 
 
 /*          home       */
-.home-wrapper{
-  width:100%;
-  background-position: center center;
+.top-wrapper{
   background-image: url("../images/home画像.jpg");
+  padding: 80px 0 20px 0;
   background-size: cover;
+  background-position: center;
 }
 
-.home-wrapper img {
+.top-wrapper img {
   width:1100px;
   opacity:0.9;
-  padding:30px ;
+  display: block;
+  margin:0 auto;
 }
 /*          ここまでhome       */
 
