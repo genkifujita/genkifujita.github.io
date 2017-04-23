@@ -23,7 +23,7 @@ li {
 .header {
   height:90px;
   width:100%;
-  background-color:rgba(238,232,170,0.7);
+  background-color:rgba(238,232,170,0.5);
   position:fixed;
   top:0;
   left:0;
@@ -94,6 +94,7 @@ li {
   overflow-y: auto;
   margin-bottom:30px;
   font-family: arial, sans-serif;
+  border: 3px solid #dcdcdc;
 }
 
 .scroll-list .scroll-item a {
@@ -174,13 +175,13 @@ iframe {
 .topics a {
   background-color:#eee8aa;
   color:white;
-  padding:15px 80px;
+  padding:12px 85px;
   text-align:center;
   float:right;
   border-radius:10px;
   position: absolute;
   top:170px;
-  left:23px;
+  left:20px;
   font-family: arial, sans-serif;
 }
 
@@ -244,7 +245,7 @@ iframe {
   transition: 0.3s;
   display: block;
   transition: 0.2s;
-  font-family: arial, sans-serif;
+  font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
 }
 
 .artist-news a:hover {

@@ -95,7 +95,7 @@ li {
   font-size:50px;
   font-weight:600;
   color:#505050;
-  font-family: arial, sans-serif;
+  font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
 }
 
 .artist-block {
@@ -185,8 +185,12 @@ li {
 }
 
 #login-form img{
-  width:200px;
-  height:200px;
+  width:240px;
+  height:240px;
+  background-size: cover;
+  background-image: url("../images/genki-fujita-1.JPG");
+  background-size: cover;
+  background-position: center center;
 }
 
 .login-modal-wrapper-2 {
@@ -213,8 +217,12 @@ li {
 }
 
 #login-form-2 img{
-  width:200px;
-  height:200px;
+  width:300px;
+  height:240px;
+  background-size: cover;
+  background-image: url("../images/genki-fujita-2.JPG");
+  background-size: cover;
+  background-position: center center;
 }
 
 .login-modal-wrapper-3 {
@@ -241,8 +249,12 @@ li {
 }
 
 #login-form-3 img{
-  width:200px;
-  height:200px;
+  width:240px;
+  height:240px;
+  background-size: cover;
+  background-image: url("../images/genki-fujita-3.JPG");
+  background-size: cover;
+  background-position: center center;
 }
 
 .fa-times {
@@ -325,7 +337,7 @@ li {
 .google:hover {
   background-color: #D04829;
 }
-
+/*    ここまでMODAL   */
 
 .footer {
   text-align: center;
