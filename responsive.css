@@ -26,10 +26,8 @@
    display:none;
  }
 
- .menu-icon {
+ #menu-icon {
    display:block;
-   font-size:30px;
-   color:#696969;
  }
 
 
@@ -62,6 +60,7 @@ height: 300px !important;
 
   .artist-news {
     width:100%;
+    margin:20px 0 20px 0;
   }
 
 
