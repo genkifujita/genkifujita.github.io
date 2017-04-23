@@ -1,0 +1,77 @@
+@media only screen and (min-width:376px) and (max-width:960px) {
+/*tablet用のcssを記述*/
+}
+
+@media(max-width:670px) {
+
+
+  .container {
+    width:100%;
+  }
+
+  .header {
+    height:45px;
+  }
+
+  .header-logo img{
+    width:45px;
+  }
+
+ .nav-item {
+   display:none;
+ }
+
+ #menu-icon {
+   display:block;
+ }
+
+
+ .guide h3{
+   text-align:center;
+   font-size:22px;
+ }
+
+.guide p{
+  text-align:center;
+  padding:0 20px;
+  font-size:15px;
+}
+
+.rules h3 {
+  text-align:center;
+  font-size:22px;
+}
+
+.rules p {
+  text-align:left;
+  padding:0 20px;
+  font-size:14px;
+}
+
+.faq h3 {
+  text-align:center;
+  font-size:22px;
+}
+
+.faq p {
+  text-align:left;
+  padding:0 20px;
+  font-size:14px;
+}
+
+.greeting-box p {
+  text-align:left;
+  padding:0 20px;
+  font-size:14px;
+}
+
+.greeting-box h3 {
+  text-align:center;
+  font-size:22px;
+}
+
+  .footer-logo img{
+    width:45px;
+  }
+
+}
