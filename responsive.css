@@ -1,0 +1,89 @@
+@media only screen and (min-width:376px) and (max-width:960px) {
+/*tablet用のcssを記述*/
+}
+
+@media(max-width:670px) {
+
+
+  .container {
+    width:100%;
+  }
+  .main-wrapper {
+    width:100%;
+  }
+  .top-wrapper img {
+    width:100%;
+  }
+  .header {
+    height:45px;
+  }
+
+  .header-logo img{
+    width:45px;
+  }
+
+ .nav-item {
+   display:none;
+ }
+
+ .menu-icon {
+   display:block;
+   font-size:30px;
+   color:#696969;
+ }
+
+
+  .scroll-list .scroll-item a {
+    font-size:10px;
+  }
+
+  .main-left {
+      width:100%;
+  }
+
+  .map {
+position: relative;
+padding-bottom: 75%;
+height: 0;
+overflow: hidden;
+}
+.map iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 300px !important;
+}
+
+
+  .main-right {
+      width:100%;
+  }
+
+  .artist-news {
+    width:100%;
+  }
+
+
+  .artist-news a {
+    font-size:28px;
+  }
+
+  .topics {
+    width:100%;
+  }
+
+  .rules {
+    width:100%;
+  }
+
+  .faq {
+    width:100%;
+    margin-top:20px;
+  }
+
+  .footer-logo img{
+    width:45px;
+  }
+
+}
