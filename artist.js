@@ -1,5 +1,5 @@
 $(function() {
-  $('.genki-fujita-1').click(function(){
+  $('.genki-fujita-1-link').click(function(){
     $('#login-modal').fadeIn();
   });
 
@@ -11,7 +11,7 @@ $(function() {
 });
 
 $(function() {
-  $('.genki-fujita-2').click(function(){
+  $('.genki-fujita-2-link').click(function(){
     $('#login-modal-2').fadeIn();
   });
 
@@ -23,7 +23,7 @@ $(function() {
 });
 
 $(function() {
-  $('.genki-fujita-3').click(function(){
+  $('.genki-fujita-3-link').click(function(){
     $('#login-modal-3').fadeIn();
   });
 
