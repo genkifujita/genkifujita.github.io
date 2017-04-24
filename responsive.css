@@ -44,7 +44,7 @@ label.close {
   height: 45px;
   color: white;
   background-color: #dfbe92;
-  font-size:30px;
+  font-size:35px;
   text-align: center;
   -webkit-transition: background-color .6s, -webkit-transform .6s;
   transition: background-color .6s, transform .6s;
@@ -95,12 +95,13 @@ label.close {
   transform: translateX(0);
 }
 
+.menu h3,
 .menu p,
 .menu li a {
   color: white;
 }
 
-.menu p {
+.menu h3{
   text-align: center;
 }
 
@@ -111,7 +112,7 @@ label.close {
 
 .menu li {
   border-bottom: 1px solid rgba(255,255,255,.6);
-  font-size: .8em;
+  font-size:15px;
   line-height: 1.4;
 }
 
