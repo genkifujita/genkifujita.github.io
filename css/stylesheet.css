@@ -73,11 +73,15 @@ li {
   color:#c0c0c0;
 }
 
-#menu-icon {
+/*#menu-icon {
   display: none;
   color: #696969;
   font-size:30px;
+}*/
+#ham-menu {
+  display: none;
 }
+
 /*          ここまでheader       */
 
 
@@ -272,81 +276,33 @@ iframe {
 
 /*          ここまでmain       */
 
-.sosyal {
-  margin: 50px auto;
-}
-.facebook {
-  background-color: #2e4a88;
-  box-shadow: 0 4px 0 #1B3D82;
-  text-shadow: 0 -1px -1px #1B3D82;
-
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius:10px;
-  padding:12px 74px;
-}
-.facebook:hover {
-  background-color: #354F84;
-}
-.facebook:active {
-  top: 2px;
-	box-shadow: 0 2px 0 #1B3D82;
-}
-.twitter {
-  background-color: #008DDE;
-  box-shadow: 0 4px 0 #0078BD;
-
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius:10px;
-  padding:12px 85px;
-}
-.twitter:active {
-  top: 2px;
-	box-shadow: 0 2px 0 #0078BD;
-}
-.twitter:hover {
-  background-color: #1397D8;
-}
-/*.google {
-  background-color: #CC3622;
-  box-shadow: 0 4px 0 #BA2714;
-
-  display: inline;
-  position: relative;
-  font-family: Arial;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius:10px;
-  padding:12px 85px;
-}
-.google:active {
-  top: 2px;
-	box-shadow: 0 2px 0 #BA2714;
-}
-.google:hover {
-  background-color: #D04829;
-}*/
 
 
 .footer {
   text-align: center;
   height:180px;
+}
+
+.sns-box {
+  overflow: hidden;
+  display: block;
+  text-align: center;
+}
+
+.sns-box a {
+  float: left;
+}
+
+.facebook a{
+  color:#3B5998;
+}
+
+.twitter a{
+  color:#00aced;
+}
+
+.instagram a{
+  color:#8b008b;
 }
 
 .footer-logo img{
