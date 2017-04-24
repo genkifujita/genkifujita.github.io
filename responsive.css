@@ -99,6 +99,7 @@ label.close {
 .menu p,
 .menu li a {
   color: white;
+  font-family: arial, sans-serif;
 }
 
 .menu h3{
@@ -127,9 +128,7 @@ label.close {
   transition: background-color .6s;
 }
 
-.menu li a:hover {
-  background-color: black;
-}
+
 
 
 
