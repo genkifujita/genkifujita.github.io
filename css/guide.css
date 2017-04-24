@@ -78,6 +78,9 @@ li {
   font-size:30px;
 }
 
+.ham-menu {
+  display: none;
+}
 /*          ここまでheader       */
 
 

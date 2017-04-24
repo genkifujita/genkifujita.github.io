@@ -75,10 +75,8 @@ li {
   color:#c0c0c0;
 }
 
-#menu-icon {
+.ham-menu {
   display: none;
-  color: #696969;
-  font-size:30px;
 }
 
 /*          ここまでheader       */
