@@ -105,6 +105,10 @@ li {
   font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
 }
 
+.main-wrapper span {
+  font-family: 'IMPACT', sans-serif;
+}
+
 .main-left {
     float:left;
     width:50%;

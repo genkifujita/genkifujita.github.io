@@ -98,6 +98,7 @@ li {
 
 
 /*          main       */
+
 .main-wrapper {
   width:100%;
   background-color:#f5f5f5;
@@ -195,7 +196,7 @@ li {
   background-color: #e6ecf0;
   padding: 20px 0 40px;
   border-radius: 10px;
-  width: 600px;
+  width: 450px;
   height: auto;
   text-align: center;
 }
@@ -207,6 +208,10 @@ li {
   background-image: url("../images/genki-fujita-1.JPG");
   background-size: cover;
   background-position: center center;
+}
+
+#login-form h3 {
+  color:#505050;
 }
 
 .login-modal-wrapper-2 {
@@ -241,6 +246,10 @@ li {
   background-position: center center;
 }
 
+#login-form-2 h3 {
+  color:#505050;
+}
+
 .login-modal-wrapper-3 {
   position: fixed;
   top: 0;
@@ -271,6 +280,10 @@ li {
   background-image: url("../images/genki-fujita-3.JPG");
   background-size: cover;
   background-position: center center;
+}
+
+#login-form-3 h3 {
+  color:#505050;
 }
 
 .fa-times {

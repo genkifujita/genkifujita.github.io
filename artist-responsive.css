@@ -27,7 +27,7 @@
 
  .main-wrapper h1 {
    text-align: center;
-   font-size:30px;
+   font-size:31px;
    font-weight:600;
    color:#505050;
    font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
@@ -35,6 +35,10 @@
 
  .artists {
    width:100%;
+ }
+
+ .artists h3 {
+   font-size:15px;
  }
 
  .modal {
