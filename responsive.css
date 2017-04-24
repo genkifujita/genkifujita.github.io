@@ -26,72 +26,111 @@
    display:none;
  }
 
- /*#menu-icon {
-   display:block;
- }*/
+ #navTgl {
+  display: none;
+}
 
- #ham-menu {
-     background-color: #fff; /*メニュー背景色*/
-     box-sizing: border-box;
-     padding: 10px; /*メニュー内部上下左右余白*/
-     position: fixed;
-     right: -200px; /*メニュー横幅①と合わせる*/
-     top: 0;
-     transition: transform 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
-     width: 200px; /*メニュー横幅①*/
-     z-index: 1000;
-     display: block;
- }
+label.open,
+label.close {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
- #ham-menu a {
-   font-size: 20px;
-   font-family: 'IMPACT', sans-serif;
-   margin:0 15px;
-   color:#4682b4;
-   transition: 0.3s;
-   border-bottom:1px solid black;
- }
+.open {
+  z-index: 2;
+  width: 45px;
+  height: 45px;
+  color: white;
+  background-color: #dfbe92;
+  font-size:30px;
+  text-align: center;
+  -webkit-transition: background-color .6s, -webkit-transform .6s;
+  transition: background-color .6s, transform .6s;
+}
 
- /*メニューアイコン部分は疑似要素で*/
- #ham-menu::before {
-     /*background-color: #fff; /*ボタン部分背景色*/*/
-     border-radius:10px;
-     color:#a9a9a9; /*アイコン（フォト）色*/
-     content: "≡"; /*メニューアイコン*/
-     display: block;
-     font-size: 50px; /*アイコン（フォント）サイズ*/
-     height: 45px;
-     line-height: 35px; /*縦位置中央化*/
-     position: absolute;
-     right: 100%;
-     text-align: center;
-     top: 0;
-     width: 50px;
- }
+#navTgl:checked + .open {
+  background-color: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateX(-250px);
+  transform: translateX(-250px);
+}
 
- /*透過背景部分*/
- #menu-background {
-     background-color: #333; /*黒背景部分背景色*/
-     display: block;
-     height: 100%;
-     opacity: 0;
-     position: fixed;
-     right: 0;
-     top: 0;
-     transition: all 0.3s linear 0s; /*0.3s は変化するのにかかる時間*/
-     width: 100%;
-     z-index: -1;
- }
+.close {
+  pointer-events: none;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transition: background-color .6s;
+}
 
- /*hover 時の処理*/
- #ham-menu:hover {
-     transform: translate(-300px); /*メニュー横幅①と合わせる*/
- }
+#navTgl:checked ~ .close {
+  pointer-events: auto;
+  background-color: rgba(0,0,0,.3);
+}
 
- #ham-menu:hover + #menu-background {
-     opacity: 0.5; /*黒背景部分透過度*/
-     z-index: 999;
- }
+/* :::::: drawer menu :::::: */
+
+.ham-menu {
+  display: block;
+}
+
+
+
+.menu {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  background-color: rgba(0,0,0,.6);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: -webkit-transform .6s;
+  transition: transform .6s;
+}
+
+#navTgl:checked ~ .menu {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.menu p,
+.menu li a {
+  color: white;
+}
+
+.menu p {
+  text-align: center;
+}
+
+.menu ul {
+  padding: 0;
+  list-style-type:none;
+}
+
+.menu li {
+  border-bottom: 1px solid rgba(255,255,255,.6);
+  font-size: .8em;
+  line-height: 1.4;
+}
+
+.menu li:first-child {
+  border-top: 1px solid rgba(255,255,255,.6);
+}
+
+.menu li a {
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  transition: background-color .6s;
+}
+
+.menu li a:hover {
+  background-color: black;
+}
+
+
 
   .scroll-list .scroll-item a {
     font-size:15px;

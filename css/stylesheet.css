@@ -73,12 +73,7 @@ li {
   color:#c0c0c0;
 }
 
-/*#menu-icon {
-  display: none;
-  color: #696969;
-  font-size:30px;
-}*/
-#ham-menu {
+.ham-menu {
   display: none;
 }
 

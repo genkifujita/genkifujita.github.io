@@ -18,7 +18,6 @@
         <a href="#"><img src="images/logo.png" alt=""></a>
       </div>
       <nav class="global-nav">
-        <!-- <span class="fa fa-bars menu-icon" id="menu-icon"></span> -->
         <ul>
           <li class="nav-item"><a href="#">HOME</a></li>
           <li class="nav-item"><a href="guide.html">GUIDE</a></li>
@@ -29,19 +28,22 @@
           <li class="nav-item"><p>GOODS</p></li>
         </ul>
       </nav>
-      <div id="ham-menu">
-        <ul>
-          <li class="ham-nav-item"><a href="#">HOME</a></li>
-          <li class="ham-nav-item"><a href="guide.html">GUIDE</a></li>
-          <li class="ham-nav-item"><a href="artist.html">ARTIST</a></li>
-          <li class="ham-nav-item"><a>TIME TABLE</a></li>
-          <li class="ham-nav-item"><a>AREA MAP</a></li>
-          <li class="ham-nav-item"><a href="access.html">ACCESS</a></li>
-          <li class="ham-nav-item"><a>GOODS</a></li>
-        </ul>
-      </div>
-      <div id="menu-background"></div>
     </div>
+    <div class="ham-menu">
+        <input type="checkbox" id="navTgl">
+        <label for="navTgl" class="open">≡</label>
+        <label for="navTgl" class="close"></label>
+      <nav class="menu">
+        <p>menu</p>
+        <ul>
+          <li><a href="#article1">Menu Text</a></li>
+          <li><a href="#article2">Menu Text</a></li>
+          <li><a href="#article3">Menu Text</a></li>
+          <li><a href="#article4">Menu Text</a></li>
+          <li><a href="#article5"><?php get_search_form(); ?></a></li>
+      </div>
+      </ul>
+  </nav>
   </header>
 
 
