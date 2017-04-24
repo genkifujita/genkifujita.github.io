@@ -1,3 +1,10 @@
+*{
+  box-sizing:border-box;
+}
+
+
+
+
 body {
   margin: 0;
 }
@@ -66,6 +73,13 @@ li {
   margin:0 15px;
   color:#c0c0c0;
 }
+
+#menu-icon {
+  display: none;
+  color: #696969;
+  font-size:30px;
+}
+
 /*          ここまでheader       */
 
 
@@ -179,7 +193,7 @@ li {
   background-color: #e6ecf0;
   padding: 20px 0 40px;
   border-radius: 10px;
-  width: 450px;
+  width: 600px;
   height: auto;
   text-align: center;
 }

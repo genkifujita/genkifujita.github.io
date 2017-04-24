@@ -1,0 +1,97 @@
+@media only screen and (min-width:376px) and (max-width:960px) {
+/*tablet用のcssを記述*/
+}
+
+@media(max-width:670px) {
+
+
+  .container {
+    width:100%;
+  }
+
+  .header {
+    height:45px;
+  }
+
+  .header-logo img{
+    width:45px;
+  }
+
+ .nav-item {
+   display:none;
+ }
+
+ #menu-icon {
+   display:block;
+ }
+
+ .main-wrapper h1 {
+   text-align: center;
+   font-size:30px;
+   font-weight:600;
+   color:#505050;
+   font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
+ }
+
+ .artists {
+   width:100%;
+ }
+
+ .modal {
+   position: absolute;
+   top: 20%;
+   left: 10%;
+   background-color: #e6ecf0;
+   padding: 20px 0 40px;
+   border-radius: 10px;
+   width: 320px;
+   height: auto;
+   text-align: center;
+ }
+
+ #login-form img{
+   width:200px;
+   height:200px;
+ }
+
+ .modal-2 {
+   position: absolute;
+   top: 20%;
+   left: 10%;
+   background-color: #e6ecf0;
+   padding: 20px 0 40px;
+   border-radius: 10px;
+   width: 320px;
+   height: auto;
+   text-align: center;
+ }
+
+ #login-form-2 img{
+   width:260px;
+   height:200px;
+ }
+
+ .modal-3 {
+   position: absolute;
+   top: 20%;
+   left: 10%;
+   background-color: #e6ecf0;
+   padding: 20px 0 40px;
+   border-radius: 10px;
+   width: 320px;
+   height: auto;
+   text-align: center;
+ }
+
+ #login-form-3 img{
+   width:200px;
+   height:200px;
+ }
+
+
+
+  .footer-logo img{
+    width:45px;
+  }
+
+}
