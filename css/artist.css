@@ -34,6 +34,7 @@ li {
   position:fixed;
   top:0;
   left:0;
+  right:0;
   z-index:10;
 }
 
@@ -102,6 +103,7 @@ li {
   background-color:#f5f5f5;
   padding-top:90px;
   text-align: center;
+  overflow: hidden;
 }
 
 .main-wrapper h1 {

@@ -30,16 +30,20 @@
    display:block;
  }
 
+ .main-wrapper h1 {
+   text-align: center;
+   font-size:30px;
+   font-weight:600;
+   color:#505050;
+   font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
+ }
 
-  .scroll-list .scroll-item a {
-    font-size:10px;
-  }
+ .main-left {
+   width:100%;
+ }
 
-  .main-left {
-      width:100%;
-  }
 
-  .map {
+ .map {
 position: relative;
 padding-bottom:40%;
 height: 0;
@@ -53,33 +57,20 @@ width: 100% !important;
 height: 180px !important;
 }
 
+.main-right {
+  width:100%;
+}
 
-  .main-right {
-      width:100%;
-  }
+.access-text h2 {
+  text-align: center;
+  font-size:18px;
+}
 
-  .artist-news {
-    width:100%;
-    margin:20px 0 20px 0;
-  }
+.access-text h4 {
+  text-align: center;
+  font-size:12px;
+}
 
-
-  .artist-news a {
-    font-size:28px;
-  }
-
-  .topics {
-    width:100%;
-  }
-
-  .rules {
-    width:100%;
-  }
-
-  .faq {
-    width:100%;
-    margin-top:20px;
-  }
 
   .footer-logo img{
     width:45px;
