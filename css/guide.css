@@ -99,16 +99,16 @@ li {
   color:#505050;
 }
 
-.main-wrapper h2 h3 p {
-  font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
-}
+
 
 .main-wrapper h3{
   font-size:30px;
+  font-family: "メイリオ", sans-serif;
 }
 
 .main-wrapper p{
   font-size:20px;
+  font-family: "メイリオ", sans-serif;
 }
 
 .guide {

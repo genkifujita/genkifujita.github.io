@@ -136,10 +136,12 @@ iframe {
   padding:10px 20px;
   border-radius:10px;
   color:#4682b4;
+  font-family: "メイリオ", sans-serif;
 }
 
 .access-text h4 {
   color:#505050;
+  font-family: "メイリオ", sans-serif;
 }
 
 /*          ここまでmain       */

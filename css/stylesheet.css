@@ -111,7 +111,7 @@ li {
   max-height: 110px;
   overflow-y: auto;
   margin-bottom:30px;
-  font-family: arial, sans-serif;
+  font-family: "メイリオ", sans-serif;
   border: 3px solid #dcdcdc;
 }
 
@@ -212,7 +212,7 @@ iframe {
 .topics p {
   font-size:15px;
   color:#505050;
-  font-family: arial, sans-serif;
+  font-family: "メイリオ", sans-serif;
 }
 
 .topics h2 {
