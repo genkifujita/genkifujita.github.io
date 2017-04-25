@@ -184,62 +184,71 @@ li {
 .sns-box li {
   font-size:30px;
   float: left;
-  width:50px;
   margin-top:50px;
   margin-bottom:50px;
-  margin-right:45px;
+  margin-right:40px;
+  background-color:#fff;
+  line-height: 50px;
   border-radius:50%;
+  background-color:
 }
 
-/*.sns-box li:hover {
-  opacity:0.7;
-  transition:0.3s;
-}*/
 
-.facebook a{
-  border-radius:50%;
-  background-color:#3B5998;
-  color:#fff;
+
+.facebook a {
+  width:50px;
+  height:50px;
   display: block;
+  color:#fff;
+  border-radius:50%;
+  background-color:rgba(60,79,149,1);
   transition:0.3s;
-  border:1px solid #fff;
 }
 
 .facebook a:hover {
+  color:rgba(60,79,149,1);
   background-color:#fff;
-  color:#3B5998;
-  border:1px solid #3B5998;
+  border: 1px solid rgba(60,79,149,1);
 }
 
-.twitter a{
-  border-radius:50%;
-  background-color:#00aced;
+.twitter a {
   color:#fff;
+  width:50px;
+  height:50px;
   display: block;
+  border-radius:50%;
+  background-color:rgba(115,168,237,1);
   transition:0.3s;
-  border:1px solid #fff;
 }
 
 .twitter a:hover {
+  color:rgba(115,168,237,1);
   background-color:#fff;
-  color:#00aced;
-  border:1px solid #00aced;
+  border: 1px solid rgba(115,168,237,1);
 }
 
-.instagram a{
-  border-radius:50%;
-  background-color:#8b008b;
+.hatena-bookmark a{
   color:#fff;
-  display: block;
-  transition:0.3s;
-  border:1px solid #fff;
+  font-family: Verdana;
+    font-weight: bold;
+    width:50px;
+    height:50px;
+    display: block;
+    border-radius:50%;
+    background-color:rgba(88,160,221,1);
+    transition:0.3s;
 }
 
-.instagram a:hover {
+.hatena-bookmark a:hover {
+  color:rgba(88,160,221,1);
   background-color:#fff;
-  color:#8b008b;
-  border:1px solid #8b008b;
+  font-family: Verdana;
+  font-weight: bold;
+  border: 1px solid rgba(88,160,221,1);
 }
+
+
+
 
 .footer-logo img{
   width:90px;

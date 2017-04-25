@@ -321,49 +321,52 @@ li {
   width:50px;
   height:50px;
   display: block;
-  color:rgba(60,79,149,1);
+  color:#fff;
   border-radius:50%;
-  border: 1px solid rgba(60,79,149,1);
+  background-color:rgba(60,79,149,1);
   transition:0.3s;
 }
 
 .facebook a:hover {
-  color:#FFF;
-  background-color: rgba(60,79,149,1);
+  color:rgba(60,79,149,1);
+  background-color:#fff;
+  border: 1px solid rgba(60,79,149,1);
 }
 
 .twitter a {
-  color:rgba(115,168,237,1);
+  color:#fff;
   width:50px;
   height:50px;
   display: block;
   border-radius:50%;
-  border: 1px solid rgba(115,168,237,1);
+  background-color:rgba(115,168,237,1);
   transition:0.3s;
 }
 
 .twitter a:hover {
-  color:#FFF;
-  background-color:rgba(115,168,237,1);
+  color:rgba(115,168,237,1);
+  background-color:#fff;
+  border: 1px solid rgba(115,168,237,1);
 }
 
 .hatena-bookmark a{
-  color:rgba(88,160,221,1);
+  color:#fff;
   font-family: Verdana;
     font-weight: bold;
     width:50px;
     height:50px;
     display: block;
     border-radius:50%;
-    border: 1px solid rgba(88,160,221,1);
+    background-color:rgba(88,160,221,1);
     transition:0.3s;
 }
 
 .hatena-bookmark a:hover {
-  color:#FFF;
-  background-color:rgba(88,160,221,1);
+  color:rgba(88,160,221,1);
+  background-color:#fff;
   font-family: Verdana;
   font-weight: bold;
+  border: 1px solid rgba(88,160,221,1);
 }
 
 
