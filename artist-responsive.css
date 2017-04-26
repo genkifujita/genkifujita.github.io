@@ -127,10 +127,9 @@
 
  .main-wrapper h1 {
    text-align: center;
-   font-size:31px;
-   font-weight:600;
+   font-size:25px;
    color:#505050;
-   font-family:"ヒラギノ角ゴ StdN W8","Hiragino Kaku Gothic StdN";
+   font-family: "メイリオ", sans-serif;
  }
 
  .artists {
