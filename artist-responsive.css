@@ -121,7 +121,7 @@
    display: block;
    padding: 1em 2em;
    text-decoration: none;
-   transition: background-color .6s;
+   transition:.6s;
   }
 
 
@@ -171,8 +171,8 @@
  }
 
  #login-form-2 img{
-   width:260px;
-   height:200px;
+   width:240px;
+   height:180px;
  }
 
  .modal-3 {

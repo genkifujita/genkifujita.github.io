@@ -4,7 +4,7 @@ $(function() {
   });
 
 
-  $(".close-modal").click(function(){
+  $(".close-modal,.login-modal-wrapper").click(function(){
     $('#login-modal').fadeOut();
   });
 
@@ -16,7 +16,7 @@ $(function() {
   });
 
 
-  $(".close-modal").click(function(){
+  $(".close-modal,.login-modal-wrapper-2").click(function(){
     $('#login-modal-2').fadeOut();
   });
 
@@ -28,7 +28,7 @@ $(function() {
   });
 
 
-  $(".close-modal").click(function(){
+  $(".close-modal,.login-modal-wrapper-3").click(function(){
     $('#login-modal-3').fadeOut();
   });
 
