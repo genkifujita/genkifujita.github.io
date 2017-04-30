@@ -1,5 +1,5 @@
 @media only screen and (min-width:376px) and (max-width:960px) {
-/*tablet用のcssを記述*/
+
 }
 
 @media(max-width:670px) {
@@ -143,10 +143,10 @@
 
  .modal {
    position: absolute;
-   top: 20%;
+   top: 10%;
    left: 9%;
    background-color: #e6ecf0;
-   padding: 20px 0 40px;
+   padding-top: 20px;
    border-radius: 10px;
    width: 320px;
    height: auto;
@@ -160,10 +160,10 @@
 
  .modal-2 {
    position: absolute;
-   top: 20%;
+   top: 10%;
    left: 9%;
    background-color: #e6ecf0;
-   padding: 20px 0 40px;
+   padding-top: 20px;
    border-radius: 10px;
    width: 320px;
    height: auto;
@@ -177,10 +177,10 @@
 
  .modal-3 {
    position: absolute;
-   top: 20%;
+   top: 10%;
    left: 9%;
    background-color: #e6ecf0;
-   padding: 20px 0 40px;
+   padding-top: 20px;
    border-radius: 10px;
    width: 320px;
    height: auto;

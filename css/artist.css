@@ -181,9 +181,9 @@ li {
 .modal {
   position: absolute;
   top: 10%;
-  left: 34%;
+  left: 32%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  padding-top: 20px;
   border-radius: 10px;
   width: 450px;
   height: auto;
@@ -225,9 +225,9 @@ li {
 .modal-2 {
   position: absolute;
   top: 10%;
-  left: 34%;
+  left: 32%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  padding-top: 20px;
   border-radius: 10px;
   width: 450px;
   height: auto;
@@ -269,9 +269,9 @@ li {
 .modal-3 {
   position: absolute;
   top:10%;
-  left: 34%;
+  left: 32%;
   background-color: #e6ecf0;
-  padding: 20px 0 40px;
+  padding-top: 20px;
   border-radius: 10px;
   width: 450px;
   height: auto;
